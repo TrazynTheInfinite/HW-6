@@ -25,7 +25,7 @@ void loop() {
     digitalWrite(11, HIGH);   
     //LED-R-on
   }
-  else{
+  if(val>= 160){
     digitalWrite(11, LOW);   
     //Vice Versa
     digitalWrite(10, HIGH);  
